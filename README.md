@@ -1,1 +1,1 @@
-# Solar-Farm-Suitability-Study
+# Solar Farm Suitability Study
