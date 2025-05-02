@@ -102,15 +102,6 @@ The analysis can be customized by modifying:
 - Weighting scheme in the Weighted Overlay step
 - Input data sources for updated or alternative datasets
 
-## Project Structure
-
-```
-Solar Farm Suitability Analysis/
-├── Solar Farm Suitability Analysis.gdb/  # Geodatabase containing all outputs
-├── solar_farm_suitability.py             # Main Python script
-└── Data/                                 # Input datasets
-```
-
 ## Notes
 
 - The script uses a UTM Zone 31N projection, which is appropriate for the study area
@@ -124,10 +115,7 @@ Solar Farm Suitability Analysis/
 - Include socio-economic factors for comprehensive analysis
 - Implement sensitivity analysis for different weighting schemes
 
-## License
-
-[Specify your license information here]
-
 ## Contact
 
-[Your contact information]
+[Website](https://huygens123.github.io/)
+[X](https://x.com/Huygens_OH)
