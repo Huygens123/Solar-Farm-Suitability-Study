@@ -72,14 +72,14 @@ The analysis produces several intermediate outputs and the final result:
   ![alt text](maps/Proximity_to_grid.jpg)
 - `Proximity to Road`
   ![alt text](maps/Proximity_to_road.jpg)
-
-- `SuitableLocationsFarm`: Dissolved polygons grouped by suitability class
+- `Suitable Locations Farm`: Dissolved polygons grouped by suitability class
+  ![alt text](Layout.jpg)
 
 ## Suitability Classes
 
 The final output classifies areas into three suitability categories:
 
-1. **Low Suitability** (1): Marginally suitable areas
+1. **UnSuitable** (1): Marginally suitable areas
 2. **Moderate Suitability** (2): Areas with good potential
 3. **High Suitability** (3): Optimal locations for solar farm development
 
