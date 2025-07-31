@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project performs a comprehensive suitability analysis for identifying optimal solar farm locations using ArcGIS Pro. The analysis incorporates multiple environmental, infrastructural, and geographical factors to determine areas that are most suitable for solar farm development while avoiding protected areas in Kano State, Nigeria.
+This project conducts a comprehensive suitability analysis to identify optimal solar farm locations using ArcGIS Pro. The analysis incorporates multiple environmental, infrastructural, and geographical factors to determine areas that are most suitable for solar farm development while avoiding protected areas in Kano State, Nigeria.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This project performs a comprehensive suitability analysis for identifying optim
 
 ## Input Data
 
-The dataset used for this analysis was fundamental spatial datasets that were used to perform a comprehensive evaluation. These dataset include a `Digital Elevation Model (DEM)` of resolution of 30m resolution from [Open Topography](https://opentopography.org/!) to know the topographic variations within the study area; `solar radiation` data from [Global Solar Atlas](https://globalsolaratlas.info/map); `land cover classification` data from [ESA Worlcover](https://esa-worldcover.org/en) which represents the land use of the study area for the year 2023; `road network` data from [GeoFabrik](https://www.geofabrik.de/) which is in vector format and contains classification of road types; `electrical grid` network data from [HDX](https://data.humdata.org/) which shows transmission and distribution points within the study area; `protected areas` boundaries from [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA) which encompasses conservation zones, wildlife reserves, and culturally significant sites; and the `study area` boundary that defines the geographical scope of analysis.
+The dataset used for this analysis was a fundamental spatial dataset that was used to perform a comprehensive evaluation. These dataset include a `Digital Elevation Model (DEM)` of resolution of 30m resolution from [Open Topography](https://opentopography.org/!) to know the topographic variations within the study area; `solar radiation` data from [Global Solar Atlas](https://globalsolaratlas.info/map); `land cover classification` data from [ESA Worlcover](https://esa-worldcover.org/en) which represents the land use of the study area for the year 2023; `road network` data from [GeoFabrik](https://www.geofabrik.de/) which is in vector format and contains classification of road types; `electrical grid` network data from [HDX](https://data.humdata.org/) which shows transmission and distribution points within the study area; `protected areas` boundaries from [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA) which encompasses conservation zones, wildlife reserves, and culturally significant sites; and the `study area` boundary that defines the geographical scope of analysis.
 
 ## Methodology
 
@@ -27,7 +27,7 @@ The suitability analysis follows these main steps:
 1. **Data Preparation**
 
    - Clipping all input data to the study area
-   - Projecting rasters to Projected coordinate system. Here, WGS 1984 UTM Zone 31N coordinate system
+   - Projecting rasters to a projected coordinate system. Here, the WGS 1984 UTM Zone 31N coordinate system
    - Creating a filled DEM for topographic analysis
 
 2. **Criteria Analysis**
@@ -64,7 +64,7 @@ The suitability analysis follows these main steps:
 
 The analysis produces several intermediate outputs and the final result:
 
-- `Digital Elevation Model`: Map showing the DIgital Elevation of the Kano State
+- `Digital Elevation Model`: Map showing the Digital Elevation of the Kano State
   ![alt text](maps/DEM.jpg)
 - `Land Use`: Land Use map of Kano State
   ![alt text](maps/landuse.jpg)
@@ -96,7 +96,7 @@ To run the analysis:
 
 ## Customization
 
-The analysis can be customized by modifying:
+The analysis can be customised by modifying:
 
 - Reclassification ranges for individual criteria
 - Weighting scheme in the Weighted Overlay step
@@ -117,5 +117,5 @@ The analysis can be customized by modifying:
 
 ## Contact
 
-[Website](https://abdulquawiy-owolabi.github.io/)
+[Website](https://abdulquawiyy-owolabi.github.io/)
 [X](https://x.com/Huygens_OH)
